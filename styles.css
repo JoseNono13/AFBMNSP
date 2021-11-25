@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(css/fontello.css);
+@import url(css/menu.css);
+@import url(css/banner.css);
+@import url(css/novedades.css);
+@import url(css/aside.css);
+@import url(css/footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(src/background.png);
+    font-family: Open Sans, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 55px;
+    background: #000;
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.container {
+    width: 98%;
+    margin: auto;
+}
+
+.container a {
+    font-size: 28px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    margin: 6px 0;
+}
+
+.logo {
+    float: left;
+}
+.logo_a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.logo_img {
+    
+    width: 56px ;
+    height: 55px;
+}
+
+
+header .container {
+    display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.margin_top {
+    width: 100%;
+    height: 60px;
+}
+
+.news {
+    width: 80%;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1er;
+    grid-template-rows: 1er 1er;
+}
+
