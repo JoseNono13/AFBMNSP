@@ -1,0 +1,24 @@
+.archivo {
+    display: none;
+    width: 25%;
+    margin: auto;
+    float: left;
+}
+
+.archivo ul {
+    list-style: none;
+}
+
+.archivo li {
+    margin: 15px 0;
+}
+
+.archivo a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.archivo a:hover {
+    color: red;
+}
